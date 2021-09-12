@@ -9,9 +9,9 @@
     font-family: "Roboto", sans-serif;
 }
 :root{
-    --orange: #f78b00;
-    --blue: #00285f;
-    --gray: #ededed;
+    --color1: #131313;
+    --color2: #00BFFF;
+    --color3: #ededed;
 }
 html,
 body{
@@ -21,7 +21,7 @@ body{
 header{
     width: 100%;
     height: 500px;
-    background: var(--orange);
+    background: var(--color1);
 }
 .content{
     max-width: 1000px;
@@ -30,6 +30,9 @@ header{
     display: flex;
     flex-direction: column;
     padding: 10px;
+}
+.content span{
+    color: var(--color2);
 }
 nav{
     width: 100%;
@@ -41,7 +44,7 @@ nav{
 }
 .brand{
     font-size: 24px;
-    color: var(--blue);
+    color: white;
     cursor: pointer;
 }
 nav ul{
@@ -54,32 +57,32 @@ nav ul li{
     cursor: pointer;
 }
 nav ul li a{
-    color: var(--blue);
+    color: var(--color2);
     text-decoration: none;
 }
 nav ul li a:hover{
     color: #00285f83;
 }
 nav ul button{
-    border: 1px solid var(--blue);
+    border: 1px solid var(--color2);
     background: transparent;
     padding: 8px 40px;
     cursor: pointer;
     margin-left: 30px;
-    color: var(--blue);
+    color: var(--color2);
     font-weight: bold;
     border-radius: 4px;
     transition: 0.6s;
 }
 nav ul button:hover{
-    background: var(--blue);
+    background: var(--color2);
     color: white;
 }
 .content .header-block{
     max-width: 1000px;
     min-width: 300px;
     height: 450px;
-    background: var(--blue);
+    background: var(--color2);
     border-radius: 8px;
     box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
     -webkit-box-shadow: 1px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -121,7 +124,7 @@ section .catalog{
 div.filter-card{
     width: 980px;
     height: 150px;
-    background: var(--gray);
+    background: var(--color3);
     border-radius: 8px;
     margin: 0 auto;
     display: flex;
@@ -141,15 +144,15 @@ div.filter-card{
     height: 50px;
     border-radius: 0 4px 4px 0;
     border: none;
-    background: var(--blue);
+    background: var(--color2);
     color: white;
     cursor: pointer;
     font-size: 1.1em;
     transition: 0.2s ease;
 }
 .search-button:hover{
-    background: var(--gray);
-    color: var(--blue); 
+    background: var(--color3);
+    color: var(--color2); 
 }
 .title-wrapper-catalog{
     margin-top: 200px;
@@ -165,7 +168,7 @@ section .card-wrapper{
 }
 section .card-item{
     height: 400px;
-    background: var(--gray);
+    background: var(--color3);
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -194,7 +197,7 @@ section .card-item{
     width: 90%;
     padding: 15px 0;
     border: none;
-    background: var(--blue);
+    background: var(--color2);
     border-radius: 4px;
     color: white;
     font-weight: bold;
@@ -204,8 +207,8 @@ section .card-item{
     margin-bottom: 10px;
 }
 .card-item button:hover{
-    background: var(--gray);
-    color: var(--blue);
+    background: var(--color3);
+    color: var(--color2);
 }
 /*-------------------------------Sobre-------------------------------*/
 .about{
@@ -262,7 +265,7 @@ section .card-item{
 .features{
     width: 100%;
     height: 100%;
-    background:  var(--gray);
+    background:  var(--color3);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -307,7 +310,7 @@ section .card-item{
 .newsletter{
     width: 100%;
     float: left;
-    background-color: var(--orange);
+    background-color: var(--color1);
     padding: 50px 8%;
 }
 .newsletter h4{
@@ -330,7 +333,7 @@ section .card-item{
     border: 1px solid #fff;
     border-radius: 10px;
     background-color: initial;
-    color: var(--blue);
+    color: var(--color2);
 }
 .newsletter input::placeholder{
     color: #fff;
@@ -348,7 +351,7 @@ section .card-item{
 .rodape{
     width: 100%;
     float: left;
-    background: var(--blue);
+    background: var(--color2);
     padding: 25px 8%;
     display: flex;
     
