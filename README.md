@@ -1,5 +1,9 @@
 # Site-Carros
-Loja online de carros
+<hq>Loja online de carros</h1>
+
+<p>Neste projeto, criei o front-end de uma página de compra de carros.</p>
+
+<br>
 
 <a href="https://lphbackspace.github.io/Site-Carros/">Visualizar projeto</a>
 
